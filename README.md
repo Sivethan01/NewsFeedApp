@@ -39,10 +39,27 @@ A modern and responsive news feed web application built using **HTML**, **CSS**,
 1. Clone the repository:
    git clone https://github.com/Sivethan01/NewsFeedApp.git
 
-2. Open the folder:
-   cd NewsFeedApp
+2. **Insert your API Key**
+- Open `script.js` and replace the `API_KEY` value:
+```javascript
+const API_KEY = "YOUR_API_KEY_HERE";
+```
 
-3. Just open `index.html` in a browser!
+3. **Run locally**
+
+**Option 1: Open directly**
+- Open `index.html` in your browser
+
+**Option 2: Use a local server (recommended)**
+
+- **VS Code Live Server**: Right-click `index.html` → Open with Live Server  
+- **Python server**:
+```bash
+python -m http.server 5500
+```
+Then open `http://localhost:5500`
+
+---
 
 ---
 
